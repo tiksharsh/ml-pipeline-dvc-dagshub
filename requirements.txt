@@ -1,0 +1,8 @@
+numpy
+pandas
+mlflow
+scikit-learn
+hydra-core
+nltk
+dvc
+dvc-gdrive
