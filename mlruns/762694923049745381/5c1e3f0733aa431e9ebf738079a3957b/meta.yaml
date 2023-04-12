@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/gadeh/Documents/ml/dvc/ml-pipeline-dvc-by-kt/mlruns/762694923049745381/5c1e3f0733aa431e9ebf738079a3957b/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '762694923049745381'
+lifecycle_stage: active
+run_id: 5c1e3f0733aa431e9ebf738079a3957b
+run_name: caring-asp-87
+run_uuid: 5c1e3f0733aa431e9ebf738079a3957b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681292084284
+status: 1
+tags: []
+user_id: gadeh

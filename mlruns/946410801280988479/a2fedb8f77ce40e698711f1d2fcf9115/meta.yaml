@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/gadeh/Documents/ml/dvc/ml-pipeline-dvc-by-kt/mlruns/946410801280988479/a2fedb8f77ce40e698711f1d2fcf9115/artifacts
+end_time: 1681292331201
+entry_point_name: ''
+experiment_id: '946410801280988479'
+lifecycle_stage: active
+run_id: a2fedb8f77ce40e698711f1d2fcf9115
+run_name: clumsy-squid-622
+run_uuid: a2fedb8f77ce40e698711f1d2fcf9115
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681292268512
+status: 3
+tags: []
+user_id: gadeh
