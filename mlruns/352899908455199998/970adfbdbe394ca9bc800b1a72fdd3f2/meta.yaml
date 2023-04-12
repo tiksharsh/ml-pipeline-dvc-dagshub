@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/gadeh/Documents/ml/dvc/ml-pipeline-dvc-by-kt/mlruns/352899908455199998/970adfbdbe394ca9bc800b1a72fdd3f2/artifacts
+end_time: 1681291302701
+entry_point_name: ''
+experiment_id: '352899908455199998'
+lifecycle_stage: active
+run_id: 970adfbdbe394ca9bc800b1a72fdd3f2
+run_name: illustrious-calf-101
+run_uuid: 970adfbdbe394ca9bc800b1a72fdd3f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681291302679
+status: 4
+tags: []
+user_id: gadeh

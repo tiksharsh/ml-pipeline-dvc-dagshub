@@ -2,3 +2,5 @@
     remote = remote
 ['remote "remote"']
     url = gdrive://1Z03HP43lyplmyYeK1U44vgFyhDAE9FV9
+['remote "origin"']
+    url = https://dagshub.com/tiksharsh/ml-pipeline-dvc-dagshub.dvc

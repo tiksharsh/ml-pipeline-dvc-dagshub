@@ -24,6 +24,9 @@ from train_pipeline import pipeline
 
 from sklearn.model_selection import GridSearchCV
 import os
+import yaml
+
+os.environ['HYDRA_FULL_ERROR'] = '1'
 
 def read_file(name):
 
@@ -32,9 +35,13 @@ def read_file(name):
 
 	return f
 
-@hydra.main(config_path='configs',
+@hydra.main(config_path='/Users/gadeh/Documents/ml/dvc/ml-pipeline-dvc-by-kt/configs',
 			config_name='hyperparameters')
+
 def main(config):
+	print('-'*100)
+	print(config)
+	print('-'*100)
 	warnings.filterwarnings("ignore")
 	np.random.seed(40)
 
@@ -50,7 +57,7 @@ def main(config):
 
 	with mlflow.start_run():
 
-		param_grid = dict(config.hyperparameters)
+		param_grid = dict(config.model.hyperparameters)
 
 		for key, value in param_grid.items():
 			if isinstance(value, str):

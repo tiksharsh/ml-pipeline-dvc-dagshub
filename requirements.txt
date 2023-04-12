@@ -6,3 +6,4 @@ hydra-core
 nltk
 dvc
 dvc-gdrive
+pyyaml

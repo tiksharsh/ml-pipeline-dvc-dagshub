@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/gadeh/Documents/ml/dvc/ml-pipeline-dvc-by-kt/mlruns/352899908455199998/c43ed4fc47cc41d1bf8e0edee1f28f44/artifacts
+end_time: 1681291580639
+entry_point_name: ''
+experiment_id: '352899908455199998'
+lifecycle_stage: active
+run_id: c43ed4fc47cc41d1bf8e0edee1f28f44
+run_name: brawny-mule-712
+run_uuid: c43ed4fc47cc41d1bf8e0edee1f28f44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681291531637
+status: 3
+tags: []
+user_id: gadeh

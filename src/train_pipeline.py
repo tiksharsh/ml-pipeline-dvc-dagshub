@@ -10,6 +10,9 @@ from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 
 def pipeline(config):
+	print('-'*100)
+	print(type(config.model.model))
+	print('-'*100)
 
 	tfidf_word_char = FeatureUnion(
 		[
@@ -22,7 +25,7 @@ def pipeline(config):
 		[
 			('word_char', tfidf_word_char),
 			('kbest', SelectKBest(chi2, k = 2000)),
-			('classifier', eval(config.model)())
+			('classifier', eval(config.model.model)())
 		]
 	)
 
